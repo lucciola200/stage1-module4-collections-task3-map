@@ -13,8 +13,8 @@ public class FunctionValueFinder {
 
     private Map<Integer, Integer> calculateFunctionMap(List<Integer> sourceList) {
         Map<Integer, Integer> map = new HashMap<>();
-        for (int x: sourceList) {
-            map.put(x, 5*x+2);
+        for (int x : sourceList) {
+            map.put(x, 5 * x + 2);
         }
         return map;
     }

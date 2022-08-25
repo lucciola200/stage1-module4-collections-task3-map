@@ -14,9 +14,9 @@ public class KeyValueSwapper {
             String value = entry.getValue();
 
             if (map.get(value) == null) {
-                map.put(value,key);
+                map.put(value, key);
             } else {
-                map.put(value, Integer.min(map.get(value),key));
+                map.put(value, Integer.min(map.get(value), key));
             }
         }
         return map;
